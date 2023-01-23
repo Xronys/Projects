@@ -1,41 +1,33 @@
 package com.github.xronys.spring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Neil Alishev
- */
+@Component
 public class MusicPlayer {
-    private List<Music> musicList = new ArrayList<>();
+    private ClassicalMusic classicalMusic;
+    private RockMusic rockMusic;
 
-    private String name;
-    private int volume;
+    @Autowired
 
-    public String getName() {
-        return name;
+    MusicPlayer (ClassicalMusic classicalMusic, RockMusic rockMusic) {
+        this.classicalMusic = classicalMusic;
+        this.rockMusic = rockMusic;
+
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
-
-    public void setMusicList(List<Music> musicList) {
-        this.musicList = musicList;
-    }
-
-    public void playMusicList() {
-        for(Music music : musicList) {
-            System.out.println("Playing: " + music.getSong());
+    public String playMusic(Genre genre) {
+        if(genre == Genre.CLASSICAL) {
+            return "Playing: " + classicalMusic.getSong();
         }
+        else if (genre == Genre.ROCK) {
+            return "Playing: " + rockMusic.getSong();
+        }
+        else
+            return "no such song";
     }
 }
 
