@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
@@ -11,5 +10,9 @@
     <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">user</a>
 </div>
 
+<br/>
+<hr/>
+
+<a href="/people/new">Create new person</a>
 </body>
 </html>
