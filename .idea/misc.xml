@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Spring/SpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/Hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/rest/pom.xml" />
+        <option value="$PROJECT_DIR$/rest_client/pom.xml" />
       </list>
     </option>
   </component>
