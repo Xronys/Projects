@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring/CRUD/CRUD.iml" filepath="$PROJECT_DIR$/Spring/CRUD/CRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hibernate/Hibernate.iml" filepath="$PROJECT_DIR$/Hibernate/Hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Projects.iml" filepath="$PROJECT_DIR$/.idea/Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest/rest.iml" filepath="$PROJECT_DIR$/rest/rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring/spring-app/spring-app.iml" filepath="$PROJECT_DIR$/Spring/spring-app/spring-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring/SpringMVC/springmvc.iml" filepath="$PROJECT_DIR$/Spring/SpringMVC/springmvc.iml" />
     </modules>
