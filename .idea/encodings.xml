@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/rest/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rest_client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rest_client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_data_jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_data_jpa/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_rest/src/main/java" charset="UTF-8" />
   </component>
 </project>
