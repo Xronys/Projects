@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/rest/pom.xml" />
         <option value="$PROJECT_DIR$/rest_client/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_rest/pom.xml" />
       </list>
     </option>
   </component>
